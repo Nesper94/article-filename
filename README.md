@@ -21,6 +21,8 @@ Example:
 
 `Cowan-et-al_1956_Detection of the Free Neutrino: a Confirmation.pdf`
 
+## Dependencies
+
 This program is written in Python3 and depends on the following packages:
 
 - bs4
@@ -41,3 +43,14 @@ to get `pyperclip` working. To install this package just run the following line:
 ```bash
 $ sudo apt install xclip
 ```
+
+## Usage
+
+Usage is very simple, you just have to provide a PubMed URL, for example:
+
+```bash
+./article-filename.py https://pubmed.ncbi.nlm.nih.gov/17774518/
+```
+
+The program will print the article filename to the stdout and will send it to 
+the clipboard so you can paste it inmediately.
